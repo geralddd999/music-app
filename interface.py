@@ -5,6 +5,7 @@ from ttkbootstrap.icons import Emoji
 
 
 
+
 from pathlib import Path
 from track_info import extract_metadata
 from playback import AudioPlayback
@@ -71,6 +72,9 @@ class AppWindow(ttk.Window):
         
         next_btn.pack(side = 'left', fill ='x', expand = True)
 
+
+    def displayErrorBox(self):
+        ttk.show_error('')
 
 
 
