@@ -1,1 +1,3 @@
 /music-dev
+*.flac
+/__pycache__
